@@ -1,0 +1,86 @@
+import React from 'react';
+
+const radnici = [
+    {
+        id: 1,
+        ime: "Marko",
+        prezime: "Marković",
+        datumRodjenja: "1990-01-01",
+        datumZaposlenja: "2010-01-01",
+        radnoMesto: "Programer",
+        plata: 1000,
+        dodatUProjekat: false
+    },
+    {
+        id: 2,
+        ime: "Petar",
+        prezime: "Petrović",
+        datumRodjenja: "1991-01-01",
+        datumZaposlenja: "2011-01-01",
+        radnoMesto: "Programer",
+        plata: 2000,
+        dodatUProjekat: false
+    },
+    {
+        id: 3,
+        ime: "Jovan",
+        prezime: "Jovanović",
+        datumRodjenja: "1992-01-01",
+        datumZaposlenja: "2012-01-01",
+        radnoMesto: "Menadzer",
+        plata: 1300,
+        dodatUProjekat: false
+    },
+    {
+        id: 4,
+        ime: "Nikola",
+        prezime: "Nikolić",
+        datumRodjenja: "1993-01-01",
+        datumZaposlenja: "2013-01-01",
+        radnoMesto: "Menadzer",
+        plata: 2300,
+        dodatUProjekat: false
+    },
+    {
+        id: 5,
+        ime: "Milan",
+        prezime: "Milanović",
+        datumRodjenja: "1994-01-01",
+        datumZaposlenja: "2014-01-01",
+        radnoMesto: "Dizajner",
+        plata: 1500,
+        dodatUProjekat: false
+    },
+    {
+        id: 6,
+        ime: "Luka",
+        prezime: "Lukić",
+        datumRodjenja: "1995-01-01",
+        datumZaposlenja: "2015-01-01",
+        radnoMesto: "Dizajner",
+        plata: 2500,
+        dodatUProjekat: false
+    },
+    {
+        id: 7,
+        ime: "Marija",
+        prezime: "Marijanović",
+        datumRodjenja: "1996-01-01",
+        datumZaposlenja: "2016-01-01",
+        radnoMesto: "Programer",
+        plata: 1100,
+        dodatUProjekat: false
+    },
+    {
+        id: 8,
+        ime: "Jelena",
+        prezime: "Jelenković",
+        datumRodjenja: "1997-01-01",
+        datumZaposlenja: "2017-01-01",
+        radnoMesto: "Programer",
+        plata: 2100,
+        dodatUProjekat: false
+    }
+];
+
+export default radnici;
