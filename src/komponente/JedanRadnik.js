@@ -25,7 +25,7 @@ const JedanRadnik = props => {
                     <Card.Text>
                         <p>Datum rodjenja: { radnik.datumRodjenja } </p>
                         <p>Datum zaposlenja: { radnik.datumZaposlenja } </p>
-                        <p className="alert-secondary">Plata: { radnik.plata } </p>
+                        <p className="alert-secondary">Plata: { radnik.plata }&euro; </p>
                         {
                             !radnik.dodatUProjekat && (
                                 <Button onClick={dodaRadnikaUProjekat} variant="success">Dodaj u projekat <LiaAngleDoubleRightSolid/></Button>

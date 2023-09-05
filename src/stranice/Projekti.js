@@ -38,6 +38,9 @@ const Projekti = props => {
 
         setProjekti([...projekti, projekat]);
         setRadniciNaProjektu([]);
+        for (let id in radnici) {
+            radnici[id].dodatUProjekat = false;
+        }
         setSlobodniRadnici(radnici);
     }
 
@@ -71,6 +74,30 @@ const Projekti = props => {
                     </Col>
                     <Col>
                         <h1>Projekti</h1>
+                        <ul>
+                            {
+                                projekti.map(projekat => {
+                                    return (
+                                        <li>
+                                            <h3>{projekat.naziv}</h3>
+                                            <p>Duzina: {projekat.duzina} god</p>
+                                            <p>Radnici:</p>
+                                            <ul>
+                                                {
+                                                    projekat.radnici.map(radnik => {
+                                                        return (
+                                                            <li>
+                                                                {radnik.ime + ' ' + radnik.prezime}
+                                                            </li>
+                                                        )
+                                                    })
+                                                }
+                                            </ul>
+                                        </li>
+                                    )
+                                })
+                            }
+                        </ul>
                     </Col>
                 </Row>
             </Container>
