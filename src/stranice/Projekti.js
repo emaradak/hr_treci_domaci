@@ -70,7 +70,7 @@ const Projekti = props => {
                         }
 
                         <hr/>
-                        <Button onClick={sacuvajProjekat} variant="primary">Sacuvaj projekat</Button>
+                        <Button onClick={sacuvajProjekat} variant="primary">Sačuvaj projekat</Button>
                     </Col>
                     <Col>
                         <h1>Projekti</h1>
